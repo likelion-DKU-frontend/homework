@@ -1,0 +1,108 @@
+body{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  
+}
+a{
+  text-decoration:none;
+  text-align: center;
+}
+.inlineToBlock {
+  display: block;
+}
+.wrapper1{
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #999999;
+  background-color: white;
+}
+#instaLogo{
+  width: 300px;
+  margin: 30px auto;
+}
+.content .inlineToBlock{
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    width: 500px;
+    height: 37px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+}
+.content .ordinaryLogin{
+  background-color: rgb(100, 138, 240);
+  color: white;
+}
+
+#loginCheck{
+  margin: 15px auto;
+}
+
+.leftHr {
+  float:left;
+  width:37%;
+  box-sizing: border-box;
+}
+
+.or{
+  float:left;
+  width:15%;
+  /* margin:2px 5%; */
+  font-size: 13px;
+  box-sizing: border-box;
+
+  color: #999999;
+  font-size: 14px;
+  font-weight: 700;
+  margin:0px 15px;
+}
+
+.rightHr {
+  float: right;
+  width:40%;
+  box-sizing: border-box;
+}
+
+.horizonWrap{
+  margin-bottom: 40px;
+}
+
+.facebookLogin{
+  margin-left: -20px;
+  margin-bottom: 30px;
+ 
+}
+.facebookIcon {
+  width:25px;
+}
+
+.wrapper2{
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.wrapper2 .haveAccount{
+  margin-top: -50px;
+  margin-left: -20px;
+  margin-bottom: 15px;
+  width:540px;
+  border: 1px solid #999999;
+  background-color: white;
+}
+.wrapper2 .haveAccount p{
+  margin: 20px;
+}
+
+.wrapper2 .haveAccount .noneunderline{
+  font-weight: 800;
+  color: rgb(100, 138, 240);
+}
