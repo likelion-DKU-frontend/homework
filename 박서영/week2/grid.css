@@ -42,7 +42,7 @@ body{
 }
 img{
     width: 200%;
-    height: 200% ;
+    height: 100% ;
 }
 .container :nth-child(3){
     display: grid;
