@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.container_logIn_logo {
+  margin: 15px 0px;
+}
+
+.container_logIn {
+  border: 1px solid #dbdbdb;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_logIn_form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_logIn_form > form input {
+  margin: 3px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  width: 250px;
+  height: 17px;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.container_logIn_form > form button {
+  margin: 10px;
+  border: none;
+  background-color: #67b5fa;
+  width: 270px;
+  height: 35px;
+  color: #fafafa;
+  border-radius: 7px;
+}
+
+.container_divider {
+  display: flex;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.container_divider_line {
+  width: 100px;
+  height: 1px;
+  background-color: #dbdbdb;
+  margin: 5px 20px;
+}
+
+.container_divider > span {
+  color: #8e8e8e;
+}
+
+.container_facebook {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.container_facebook a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.container_facebook span {
+  color: #516795;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.find_password {
+  text-decoration: none;
+  color: #2d2d2d;
+  font-size: 0.8rem;
+}
+
+.container_signIn {
+  width: 400px;
+  height: 60px;
+  border: 1px solid #dbdbdb;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_signIn span {
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+
+.container_signIn a {
+  text-decoration: none;
+  color: #0395f6;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.downLoad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.downLoad span {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.downLoad a {
+  text-decoration: none;
+}
