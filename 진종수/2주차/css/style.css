@@ -1,0 +1,87 @@
+body{
+    background-color:pink;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+   
+}
+.myself{
+    width: 200px;
+    height: 200px;
+    border:1px solid white;
+    color:white;
+ 
+}
+.myself h3{
+    text-align:center;
+}
+.myself li{
+    font-style: italic;
+}
+.myphoto{
+    width:200px;
+    height:200px;
+    border:2px solid white;
+    color:white;
+    text-align:center;
+}
+.myphoto img{
+    width:200px;
+    height: 130px;
+}
+.myfavorite{
+    text-align:center;
+    justify-content: center;
+    width:300px;
+    height:200px;
+    border:2px solid white;
+    font-style: italic;
+    color:white;
+}
+.myfavorite img{
+  
+    width:100px;
+    height:80px;
+    text-align: center;
+    justify-content: center;
+}
+.bucketlist{
+    width:200px;
+    height:200px;
+    border:2px solid white;
+    text-align:center;
+    font-style: italic;
+    color:white;
+    
+
+}
+.grid_container{
+    border:2px solid white;
+    width:800px;
+    height:400px;
+    margin:auto;
+}
+.mytodolist{
+    color:white;
+    text-align:center;
+    justify-content: center;
+}
+.todolist{
+    display:grid;
+    margin-top : 50px;
+    grid-template-columns:70px 70px 70px;
+    grid-column-gap:50px;
+    grid-row-gap:25px;
+    text-align:center;
+    justify-content: center;
+   
+}
+.todolist button{
+    border-radius:20px;
+    border-color:white;
+    width:100px;
+    height:70px;
+    font-size: 7px;
+}
